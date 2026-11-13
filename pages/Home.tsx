@@ -1,4 +1,4 @@
-import SearchBar from "../components/SearchBar.jsx";
+import SearchBar from "../components/SearchBar.js";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -18,3 +18,12 @@ function Home() {
 }
 
 export default Home;
+
+
+
+
+// (2) SearchBar의 keyword는 input에 넣어지는 값과 관련 있는 state  <= string
+
+// 1. SearchBar에 존재하는 Props {keyword}:{keyword?:string}
+
+// 2. SearchBar에 존재하는 Props {keyword}:{keyword:string}
